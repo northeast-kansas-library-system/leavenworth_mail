@@ -156,7 +156,7 @@ Sub ODUE_MACRO_LVPL()
     Selection.Find.Execute replace:=wdReplaceAll
         Selection.Find.Execute replace:=wdReplaceAll
         With Selection.Find
-        .Text = "23:59 "
+        .Text = "23:59"
         .Replacement.Text = ""
         .Forward = True
         .Format = False
@@ -349,7 +349,7 @@ Sub ODUE_SINGLE_LVPL()
     End With
     Selection.Find.Execute replace:=wdReplaceAll
         With Selection.Find
-        .Text = "23:59 "
+        .Text = "23:59"
         .Replacement.Text = ""
         .Forward = True
         .Format = False
